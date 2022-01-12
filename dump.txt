@@ -1,0 +1,63 @@
+h2:hover {
+    color : red;
+}
+
+h2[class = subtitle] {
+    color : orange;
+
+}
+
+#services {
+    color: green;
+}
+
+li:first-child {
+    color: steelblue;
+}
+
+li:nth-child(2) {
+    color : steelblue;
+}
+
+li:only-child{
+    color : purple;
+}
+
+/*
+#google-link:link{
+    color: blue;
+}
+
+#google-link:visied{
+    color: red;
+}
+*/
+
+/* every h2 tag that follows a tag */
+h2 + a {
+    color: red;
+}
+
+/* every button inside a text area */
+textarea ~ button {
+    color: purple;
+}
+
+/* if its direction child of ul */
+ul > li {
+    color: blue;
+}
+
+/* if ul super parent of li*/
+ul  li {
+    color : blue;
+}
+
+/*  ^ = path has to match before, $ = path has to end, * = anywhere */
+img[src^="../img/"] {
+    border: 10px solid black;
+}
+
+h2[class$=subtitle] {
+    background: green;
+}
