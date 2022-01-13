@@ -1,15 +1,25 @@
-/* 2:04:25 */
+/* 3:00:00 */
 body {
     background : linear-gradient(to top, rgb(8, 221, 221), white);
+    /* font-size: 1cm; */
+    /* text-transform: capitalize; */
+    font-size: 1.15em;
+    text-align: justify;
+    
+
 
 }
 
 #title {
     color: #1b56d4;
+    font-weight: 400;
+    font-family: 'Neonderthaw', cursive, sans-serif;
+
 }
 
 .subtitle {
     color : #9291e2;
+    font-family: 'Neonderthaw', cursive, sans-serif;
 }
 
 #service-image {
@@ -20,3 +30,15 @@ body {
 
 }
 
+.link {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#about-us-image {
+    height: 300px;
+    width: 60vw;
+}
