@@ -114,6 +114,30 @@ body {
 .submit-button:hover {
     color: rgb(89, 150, 255);
     background: white;
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
+}
 
+@keyframes red-to-black {
+   0% {
+       background: rgb(89, 150, 255);
+       /* transform:  */
+   }
+   50% {
+       background: green;
+   }
+   100% {
+       background: blue;
+   }
+}
+
+#about-me {
+    /* animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: backwards; */
+    -webkit-transition-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+    -moz-transition-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+    -o-transition-animation: red-to-black 4s linear 0s 2 alternate-reverse;
 }
